@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.use(cors({
-    origin: "https://dayzrearmedpngs.z16.web.core.windows.net", // <-- location of the react app were connecting to
+    origin: "https://icy-hill-0140fa103.1.azurestaticapps.net/", // <-- location of the react app were connecting to
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE"
 }));
 
